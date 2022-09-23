@@ -1,0 +1,43 @@
+.statuses {
+  display: flex;
+  flex-direction: column;
+  margin: auto 2rem auto auto;
+}
+
+.ship {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.shipImg {
+  width: 200px;
+}
+
+.shipImg img {
+  width: 100%;
+}
+
+.shipHpImg {
+  width: 40px;
+  height: 40px;
+}
+
+.healthPoints {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@media (max-width:1200px) {
+  .statuses {
+    margin: auto;
+    padding-top: 2rem;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* height: 25vh; */
+  }
+
+  .shipImg {
+    width: 30%;
+  }
+}

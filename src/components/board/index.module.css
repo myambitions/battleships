@@ -1,0 +1,31 @@
+.board {
+  width: fit-content;
+  margin-right: auto;
+  border: 0.5rem solid rgb(232, 187, 24)
+}
+
+.unit {
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgba(70, 70, 70, 0.5);
+  background-size: 100%;
+}
+
+.row {
+  display: flex
+}
+
+@media (max-width:1200px) {
+  .board {
+    margin: auto;
+  }
+}
+
+
+@media (max-width:600px) {
+  
+.unit {
+  width: 30px;
+  height: 30px;
+}
+}
